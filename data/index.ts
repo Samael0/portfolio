@@ -1,7 +1,7 @@
 export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
-  { name: "Testimonials", link: "#testimonials" },
+  { name: "Experience", link: "#experience" },
   { name: "Contact", link: "#contact" },
 ];
 
@@ -100,5 +100,29 @@ export const builtWithCompanies = [
     id: 4,
     name: "vercel",
     img: "/vercel.svg",
+  },
+];
+
+export const workExperience = [
+  {
+    id: 1,
+    title: "Full Stack Engineer",
+    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    className: "md:col-span-2",
+    thumbnail: "/engineears.svg",
+  },
+  {
+    id: 2,
+    title: "Software Engineer II",
+    desc: "Web crawling and data extraction using Python, Typescript, Puppeteer and Playwright.",
+    className: "md:col-span-2",
+    thumbnail: "/pricespider.svg",
+  },
+  {
+    id: 3,
+    title: "Software Engineer II",
+    desc: "Led the dev of a e-commerce platform using React.js, Node.js, and MongoDB.",
+    className: "md:col-span-2",
+    thumbnail: "/stock4less.svg",
   },
 ];
