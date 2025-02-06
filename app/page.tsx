@@ -1,5 +1,6 @@
 "use client";
 
+import { BuiltWith } from "@/components/BuiltWith";
 import { Grid } from "@/components/Grid";
 import { Hero } from "@/components/Hero";
 import { RecentProjects } from "@/components/RecentProjects";
@@ -14,6 +15,7 @@ export default function Home() {
         <Hero />
         <Grid />
         <RecentProjects />
+        <BuiltWith />
       </div>
     </main>
   );

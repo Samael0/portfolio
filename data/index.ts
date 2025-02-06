@@ -79,3 +79,26 @@ export const projects = [
     link: "https://github.com/Samael0/dotfiles",
   },
 ];
+
+export const builtWithCompanies = [
+  {
+    id: 1,
+    name: "next.js",
+    img: "/nextjs.svg",
+  },
+  {
+    id: 2,
+    name: "tailwindcss",
+    img: "/tailwindcss.svg",
+  },
+  {
+    id: 3,
+    name: "typescript",
+    img: "/typescript.svg",
+  },
+  {
+    id: 4,
+    name: "vercel",
+    img: "/vercel.svg",
+  },
+];
