@@ -68,3 +68,14 @@ export const gridItems = [
     spareImg: "",
   },
 ];
+
+export const projects = [
+  {
+    id: 1,
+    title: "Dotfiles",
+    des: "My personal dotfiles for devlopment environment",
+    img: "/dotfiles.svg",
+    iconLists: ["/lua.svg", "/shell.svg"],
+    link: "https://github.com/Samael0/dotfiles",
+  },
+];
