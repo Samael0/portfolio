@@ -1,3 +1,5 @@
+import { link } from "fs";
+
 export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
@@ -124,5 +126,18 @@ export const workExperience = [
     desc: "Led the dev of a e-commerce platform using React.js, Node.js, and MongoDB.",
     className: "md:col-span-2",
     thumbnail: "/stock4less.svg",
+  },
+];
+
+export const socialMedia = [
+  {
+    id: 1,
+    img: "/git.svg",
+    link: "https://github.com/Samael0",
+  },
+  {
+    id: 2,
+    img: "/link.svg",
+    link: "https://www.linkedin.com/in/josealvarado312/",
   },
 ];
