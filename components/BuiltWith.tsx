@@ -15,7 +15,12 @@ export const BuiltWith = () => {
         {builtWithCompanies.map((company) => (
           <React.Fragment key={company.id}>
             <div className="flex md:max-w-60 max-w-32 gap-2">
-              <Image src={company.img} alt={company.name} />
+              <Image
+                src={company.img}
+                alt={company.name}
+                width={200}
+                height={200}
+              />
             </div>
           </React.Fragment>
         ))}

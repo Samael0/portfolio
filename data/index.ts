@@ -1,5 +1,3 @@
-import { link } from "fs";
-
 export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
@@ -76,8 +74,8 @@ export const projects = [
     id: 1,
     title: "Dotfiles",
     des: "My personal dotfiles for devlopment environment",
-    img: "/dotfiles.svg",
-    iconLists: ["/lua.svg", "/shell.svg"],
+    img: "/dotfiles.png",
+    iconLists: ["/lua.png", "/shell.png"],
     link: "https://github.com/Samael0/dotfiles",
   },
 ];
@@ -111,21 +109,21 @@ export const workExperience = [
     title: "Full Stack Engineer",
     desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
     className: "md:col-span-2",
-    thumbnail: "/engineears.svg",
+    thumbnail: "/engineears.png",
   },
   {
     id: 2,
     title: "Software Engineer II",
     desc: "Web crawling and data extraction using Python, Typescript, Puppeteer and Playwright.",
     className: "md:col-span-2",
-    thumbnail: "/pricespider.svg",
+    thumbnail: "/pricespider.png",
   },
   {
     id: 3,
     title: "Software Engineer II",
     desc: "Led the dev of a e-commerce platform using React.js, Node.js, and MongoDB.",
     className: "md:col-span-2",
-    thumbnail: "/stock4less.svg",
+    thumbnail: "/stock4less.png",
   },
 ];
 
